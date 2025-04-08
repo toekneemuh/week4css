@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tonima Maisha's Page</title>
+  <style>
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 50px;
+    }
+
+    img {
+      position: absolute;
+      left: 700px;
+      top: 200px;
+      z-index: -10;
+    }
+
+    .center {
+      margin: auto;
+      width: 60%;
+      border: 3px solid #73AD21;
+      padding: 10px;
+    }
+
+    div {
+      background-color: lightgrey;
+      width: 300px;
+      border: 15px solid green;
+      padding: 50px;
+      margin: 20px;
+    }
+
+    div.static {
+      position: static;
+      border: 3px solid #73AD21;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="center">
+    <h1>Hello world!</h1>
+    <p><b>Tonima Maisha</b></p>
+    <p>My name is Tonima Maisha, I am a second year student at New York City College of Technology. I am pursuing my degree in Photography/Videography in Communication Design.</p>
+  </div>
+
+  <h1>Pink tree</h1>
+  <img src="img_tree.png" alt="Pink tree">
+  <p>Pink tree with owl on it</p>
+
+  <p style="color: blue; background-color: lightblue;">
+    I like the color blue, I like the beach, and I love sushi, pizza, pasta, and Sprite.
+  </p>
+
+  <p><b>I like sleeping</b></p>
+  <p><i>I like Sprite</i></p>
+  <p>I want<sub> fun</sub> and <sup>a new camera</sup></p>
+
+  <h2>Wow</h2>
+  <p>My interests</p>
+  <div>
+    I listen to Tate McRae, Nessa Barrett, Travis Scott, dv4d, and Isabel LaRosa. I play video games, hang out with friends, and sleep all day.
+  </div>
+
+  <h2>I like Roblox</h2>
+  <p>I play Roblox 24/7</p>
+  <div class="static">
+    Play Roblox
+  </div>
+
+</body>
+</html>
